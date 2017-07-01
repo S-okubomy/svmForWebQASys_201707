@@ -22,7 +22,7 @@ public class SvmEvaClass implements BaseEvaVal{
 
     public static final String SEIKAI = "T";
     public static final String FUSEIKAI = "F";
-    private static final int maxRoopCnt = 7000;
+    private static final int maxRoopCnt = 200;
     
     /* (非 Javadoc)
      * @see interfaceEva.BaseEvaVal#execute(double)

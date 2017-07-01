@@ -16,7 +16,7 @@ import com.svm.unit.MainRcgaUnit;
 public class GetWeightValService {
 
     // SVM実行モードにより変更する。
-    public static final SVM_MODE svmExeMode = SVM_MODE.ONLY_ANS; 
+    public static final SVM_MODE svmExeMode = SVM_MODE.QUE_AND_ANS;
     
     public static void main(String[] args) throws Exception {
         
